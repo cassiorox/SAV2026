@@ -1,6 +1,8 @@
-# ClaudePRO — Kit de Boas-Vindas
+# SAV 2026 — Kit de Boas-Vindas
 
 Framework **ClaudePRO** pra usar o Claude Code com contexto do seu negócio.
+
+> Material entregue no **Subido Ao Vivo 2026**.
 
 ---
 
@@ -14,8 +16,8 @@ Escolha uma das opções:
 
 - **Opção B:** clone direto e desvincule do repositório original:
 ```bash
-git clone https://github.com/cassiorox/ClaudePRO.git
-cd ClaudePRO
+git clone https://github.com/cassiorox/SAV2026.git
+cd SAV2026
 git remote remove origin
 ```
 
