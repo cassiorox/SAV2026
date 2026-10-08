@@ -1,0 +1,5 @@
+# Segredos e dados locais — nunca versionar
+.env
+vv_cache.json
+__pycache__/
+*.pyc

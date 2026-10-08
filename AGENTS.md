@@ -61,6 +61,17 @@ Recomendado que **todo cliente tenha um `contexto.md`**.
 
 ---
 
+## Skills de terceiros
+
+Algumas skills em `.claude/skills/` vêm de outros autores (hoje: `meta-vv-publicos`, `bro`, `eli5`).
+Cada uma tem um `FONTE.md` com autor, link oficial, licença e versão importada; o resumo geral fica em `CREDITOS.md`.
+
+- Se perguntarem quem fez uma skill, de onde veio ou onde baixar, responder com base no `FONTE.md` dela e dar o crédito ao autor com o link oficial.
+- Não editar os arquivos originais dessas skills. Pra atualizar, baixar de novo do repositório oficial e atualizar o `FONTE.md`.
+- Ao trazer uma skill de terceiro nova, criar o `FONTE.md` e adicionar uma linha em `CREDITOS.md`.
+
+---
+
 ## Fluxo de trabalho
 
 Antes de executar qualquer tarefa, verificar se existe uma skill relevante em `.claude/skills/` ou `.claude/commands/`.
