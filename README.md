@@ -50,6 +50,7 @@ O Claude vai te fazer algumas perguntas e configurar o sistema pro seu negócio.
 - `/meta-ads` — gerencia campanhas Meta Ads (Facebook/Instagram) via SDK oficial
 - `/google-ads` — gerencia campanhas Google Ads via SDK oficial
 - `/auditoria-conta-google-ads` — audita uma conta Google Ads inteira, mostra onde o dinheiro vaza e entrega um plano de correção em fases
+- `/setup-rastreamento-cliente-gtm-ga4` — monta o rastreamento de um cliente novo via API: GA4, conversões no Google Ads, container GTM completo, prompt do site e validação
 - `/proposta-comercial` — cria propostas comerciais em PDF com a identidade visual da sua marca
 
 **Skills de terceiros (créditos em `CREDITOS.md`):**
