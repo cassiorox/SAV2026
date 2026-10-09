@@ -1,0 +1,700 @@
+{
+ "versao": "2026-10-09 16:34 UTC",
+ "atual": [
+  ".claude/skills/atualizar-kit/SKILL.md",
+  ".claude/skills/auditoria-conta-google-ads/SKILL.md",
+  ".claude/skills/bro/FONTE.md",
+  ".claude/skills/bro/LICENSE",
+  ".claude/skills/bro/README.md",
+  ".claude/skills/bro/SKILL.md",
+  ".claude/skills/bro/examples/consultant-speak.md",
+  ".claude/skills/bro/examples/git-panic.md",
+  ".claude/skills/bro/examples/kubernetes.md",
+  ".claude/skills/bro/examples/pt-br.md",
+  ".claude/skills/bro/examples/software-architecture.md",
+  ".claude/skills/eli5/FONTE.md",
+  ".claude/skills/eli5/README.md",
+  ".claude/skills/eli5/SKILL.md",
+  ".claude/skills/estudo-mercado/SKILL.md",
+  ".claude/skills/estudo-persona/SKILL.md",
+  ".claude/skills/google-ads/.env.example",
+  ".claude/skills/google-ads/.gitignore",
+  ".claude/skills/google-ads/README.md",
+  ".claude/skills/google-ads/SKILL.md",
+  ".claude/skills/google-ads/aprendizados.md",
+  ".claude/skills/google-ads/contas.yaml",
+  ".claude/skills/google-ads/mcp/criar-adc.py",
+  ".claude/skills/google-ads/mcp/servidor.sh",
+  ".claude/skills/google-ads/references/api-reference.md",
+  ".claude/skills/google-ads/references/google-docs/INDEX.md",
+  ".claude/skills/google-ads/references/google-docs/ad-groups-create.md",
+  ".claude/skills/google-ads/references/google-docs/assets-overview.md",
+  ".claude/skills/google-ads/references/google-docs/best-practices-overview.md",
+  ".claude/skills/google-ads/references/google-docs/bidding-strategy-types.md",
+  ".claude/skills/google-ads/references/google-docs/campaign-budgets.md",
+  ".claude/skills/google-ads/references/google-docs/campaigns-create.md",
+  ".claude/skills/google-ads/references/google-docs/concepts-overview.md",
+  ".claude/skills/google-ads/references/google-docs/conversions-overview.md",
+  ".claude/skills/google-ads/references/google-docs/date-ranges.md",
+  ".claude/skills/google-ads/references/google-docs/gaql-cookbook.md",
+  ".claude/skills/google-ads/references/google-docs/gaql-grammar.md",
+  ".claude/skills/google-ads/references/google-docs/gaql-overview.md",
+  ".claude/skills/google-ads/references/google-docs/gaql-structure.md",
+  ".claude/skills/google-ads/references/google-docs/keyword-ideas.md",
+  ".claude/skills/google-ads/references/google-docs/keyword-planning-overview.md",
+  ".claude/skills/google-ads/references/google-docs/performance-max-overview.md",
+  ".claude/skills/google-ads/references/google-docs/release-notes.md",
+  ".claude/skills/google-ads/references/google-docs/responsive-search-ads.md",
+  ".claude/skills/google-ads/references/google-docs/start-introduction.md",
+  ".claude/skills/google-ads/references/google-docs/sunset-dates.md",
+  ".claude/skills/google-ads/references/mcp-server.md",
+  ".claude/skills/google-ads/scripts/create.py",
+  ".claude/skills/google-ads/scripts/delete.py",
+  ".claude/skills/google-ads/scripts/insights.py",
+  ".claude/skills/google-ads/scripts/keyword_planner.py",
+  ".claude/skills/google-ads/scripts/lib/__init__.py",
+  ".claude/skills/google-ads/scripts/read.py",
+  ".claude/skills/google-ads/scripts/setup.py",
+  ".claude/skills/google-ads/scripts/update.py",
+  ".claude/skills/meta-ads/.env.example",
+  ".claude/skills/meta-ads/.gitignore",
+  ".claude/skills/meta-ads/README.md",
+  ".claude/skills/meta-ads/SKILL.md",
+  ".claude/skills/meta-ads/aprendizados.md",
+  ".claude/skills/meta-ads/contas.yaml",
+  ".claude/skills/meta-ads/references/api-reference.md",
+  ".claude/skills/meta-ads/references/meta-docs/INDEX.md",
+  ".claude/skills/meta-ads/references/meta-docs/ad-creative-link-data.md",
+  ".claude/skills/meta-ads/references/meta-docs/ad-creative.md",
+  ".claude/skills/meta-ads/references/meta-docs/ad-image.md",
+  ".claude/skills/meta-ads/references/meta-docs/ad-videos.md",
+  ".claude/skills/meta-ads/references/meta-docs/ad.md",
+  ".claude/skills/meta-ads/references/meta-docs/ads-whatsapp-status.md",
+  ".claude/skills/meta-ads/references/meta-docs/adset.md",
+  ".claude/skills/meta-ads/references/meta-docs/advantage-plus-sales.md",
+  ".claude/skills/meta-ads/references/meta-docs/bidding.md",
+  ".claude/skills/meta-ads/references/meta-docs/campaign-structure.md",
+  ".claude/skills/meta-ads/references/meta-docs/campaign.md",
+  ".claude/skills/meta-ads/references/meta-docs/carousel-ads.md",
+  ".claude/skills/meta-ads/references/meta-docs/changelog-v26.md",
+  ".claude/skills/meta-ads/references/meta-docs/conversions-api.md",
+  ".claude/skills/meta-ads/references/meta-docs/custom-audience.md",
+  ".claude/skills/meta-ads/references/meta-docs/get-started.md",
+  ".claude/skills/meta-ads/references/meta-docs/insights-api.md",
+  ".claude/skills/meta-ads/references/meta-docs/insights-breakdowns.md",
+  ".claude/skills/meta-ads/references/meta-docs/insights-reference.md",
+  ".claude/skills/meta-ads/references/meta-docs/lead-ads.md",
+  ".claude/skills/meta-ads/references/meta-docs/lookalike-audiences.md",
+  ".claude/skills/meta-ads/references/meta-docs/object-story-spec.md",
+  ".claude/skills/meta-ads/references/meta-docs/outcome-driven-ads.md",
+  ".claude/skills/meta-ads/references/meta-docs/placement-asset-customization.md",
+  ".claude/skills/meta-ads/references/meta-docs/targeting-avancado.md",
+  ".claude/skills/meta-ads/references/meta-docs/targeting-basico.md",
+  ".claude/skills/meta-ads/references/meta-docs/targeting-search.md",
+  ".claude/skills/meta-ads/references/padroes-campanha.md",
+  ".claude/skills/meta-ads/references/setup-meta-app.md",
+  ".claude/skills/meta-ads/scripts/advanced.py",
+  ".claude/skills/meta-ads/scripts/create.py",
+  ".claude/skills/meta-ads/scripts/dataset.py",
+  ".claude/skills/meta-ads/scripts/delete.py",
+  ".claude/skills/meta-ads/scripts/insights.py",
+  ".claude/skills/meta-ads/scripts/lib/__init__.py",
+  ".claude/skills/meta-ads/scripts/lib/pagination.py",
+  ".claude/skills/meta-ads/scripts/read.py",
+  ".claude/skills/meta-ads/scripts/setup.py",
+  ".claude/skills/meta-ads/scripts/targeting.py",
+  ".claude/skills/meta-ads/scripts/update.py",
+  ".claude/skills/meta-vv-publicos/.env.example",
+  ".claude/skills/meta-vv-publicos/.gitignore",
+  ".claude/skills/meta-vv-publicos/FONTE.md",
+  ".claude/skills/meta-vv-publicos/LICENSE",
+  ".claude/skills/meta-vv-publicos/README.md",
+  ".claude/skills/meta-vv-publicos/SKILL.md",
+  ".claude/skills/meta-vv-publicos/setup.py",
+  ".claude/skills/meta-vv-publicos/vv_campanha.py",
+  ".claude/skills/meta-vv-publicos/vv_publicos.py",
+  ".claude/skills/onboarding/SKILL.md",
+  ".claude/skills/proposta-comercial/SKILL.md",
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/.env.example",
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/.gitignore",
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/SKILL.md",
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/references/prompt-site.md",
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/scripts/_google.py",
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/scripts/ads_conversions.py",
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/scripts/check_site.py",
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/scripts/ga4_setup.py",
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/scripts/gtm_build.py",
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/scripts/oauth_login.py",
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/scripts/realtime.py",
+  ".claude/skills/setup/SKILL.md",
+  ".gitignore",
+  ".kit/atualizar.py",
+  ".kit/config.json",
+  ".kit/gerar_manifesto.py",
+  "AGENTS.md",
+  "CLAUDE.md",
+  "CREDITOS.md",
+  "NOVIDADES.md",
+  "README.md",
+  "_contexto/empresa.md",
+  "_contexto/estrategia.md",
+  "_contexto/preferencias.md",
+  "clientes/README.md",
+  "clientes/_template/contexto.md",
+  "dados/README.md",
+  "marca/design-guide.md",
+  "templates/ferramentas/catalogo.md",
+  "templates/marca/exemplos/design-guide-agencia.md",
+  "templates/marca/exemplos/design-guide-eugencia.md",
+  "templates/perfis/agents-md-agencia.md",
+  "templates/perfis/agents-md-eugencia.md"
+ ],
+ "arquivos": {
+  ".claude/skills/atualizar-kit/SKILL.md": [
+   "fe2ae1e4d3e2673b51e911d663dfc00068915772"
+  ],
+  ".claude/skills/auditoria-conta-google-ads/SKILL.md": [
+   "f8a41dd61bbe070381cd40905d8ea3a8debb1af4"
+  ],
+  ".claude/skills/bro/FONTE.md": [
+   "155e60d51aab7ec3f52ac5b227d9260f0cbba2a7"
+  ],
+  ".claude/skills/bro/LICENSE": [
+   "37f94b76710b2cda2de53781d0ae34101481dc23"
+  ],
+  ".claude/skills/bro/README.md": [
+   "fde195aabc66e811acbef7a6754d3caf50dace8f"
+  ],
+  ".claude/skills/bro/SKILL.md": [
+   "aeb322110b87e0aa06311e72d8aa43585c970fba"
+  ],
+  ".claude/skills/bro/examples/consultant-speak.md": [
+   "621a3fb59cea01ece2d6229444aefef4899a7ab5"
+  ],
+  ".claude/skills/bro/examples/git-panic.md": [
+   "5255856aa314509609c5cb32b6ed17a715da77e9"
+  ],
+  ".claude/skills/bro/examples/kubernetes.md": [
+   "31bd6ba36cd424d9095ce65996ea7a3e27dd738b"
+  ],
+  ".claude/skills/bro/examples/pt-br.md": [
+   "4fa53ba65420434f69d8ba8e9c97f53e11daf35c"
+  ],
+  ".claude/skills/bro/examples/software-architecture.md": [
+   "7c698518bd2af05e8bbe8695928d294dd30d57c8"
+  ],
+  ".claude/skills/eli5/FONTE.md": [
+   "b66e762751141621ab9ca7dd2a47aca5050705fe"
+  ],
+  ".claude/skills/eli5/README.md": [
+   "b0dbc035cda6de4cc86c9758a7956b7da7140a1e"
+  ],
+  ".claude/skills/eli5/SKILL.md": [
+   "ff6b33c9b3277c493e03e47fad327c6ad318e1d5"
+  ],
+  ".claude/skills/estudo-mercado/SKILL.md": [
+   "424c2f2fab10c90d6244ea0a63b85ce4d4c30fe5"
+  ],
+  ".claude/skills/estudo-persona/SKILL.md": [
+   "8a34388c4047d60beb6f715e6bf1acac7c7e47b6"
+  ],
+  ".claude/skills/google-ads/.env.example": [
+   "d30610550ff12642c69a89fe49e6b6edf8f21ef5"
+  ],
+  ".claude/skills/google-ads/.gitignore": [
+   "1d500f089a3886bfec082347ac8af29200aacdf0",
+   "a69bb3e48d3c8bf7edaba58029b31a1a843a77cd"
+  ],
+  ".claude/skills/google-ads/README.md": [
+   "16d5ea9628b967eb61267d3d620712f5fad7d0c1",
+   "50db8d8e275e3fb9a66d02392584badfc9a895f5"
+  ],
+  ".claude/skills/google-ads/SKILL.md": [
+   "3fabc7b13c2e911814d4caa9105b238263f2a5e9",
+   "5531a1adffc2be4db3d15c99d30608c92c183951",
+   "6bda6fc5bb777dc97c55815ab2de404a4838f495",
+   "fb04bca73aac1426af464052e5f5da9a600b26f5"
+  ],
+  ".claude/skills/google-ads/aprendizados.md": [
+   "84521938a6211bba9f582cdc1638a833113acded",
+   "b40929d76bbcca900644bc2d93fe1ff0a9ae8778"
+  ],
+  ".claude/skills/google-ads/contas.yaml": [
+   "26c6501eb49d613d961c2aef28636fb6d21567a4"
+  ],
+  ".claude/skills/google-ads/mcp/criar-adc.py": [
+   "06baeefa5646d4670c97edd5bdac1811b961feba"
+  ],
+  ".claude/skills/google-ads/mcp/servidor.sh": [
+   "909235b4cda5f84785ab81449a30dc301b4fca96"
+  ],
+  ".claude/skills/google-ads/references/api-reference.md": [
+   "27894d28b0129ca6dfebcf56a7429ae1d99b2061",
+   "567b983a98bbaff14d20360e83e8cdbdf9ae7dd8",
+   "cd4059576d37fc001867bd24b4b76603205562f7",
+   "d57a5a744e68ab68fbcc3bb730bae48a24ee5c18"
+  ],
+  ".claude/skills/google-ads/references/google-docs/INDEX.md": [
+   "06b63f017a67ce7abc8cbeea091443c225e4559d",
+   "8976cf917a7943bad0192ebd96222b62355fbc03"
+  ],
+  ".claude/skills/google-ads/references/google-docs/ad-groups-create.md": [
+   "777efece3e67148486f61d00012feef641cdcfed",
+   "f5169e50fd1a56f944d2782ddb75e1dd403d3bef"
+  ],
+  ".claude/skills/google-ads/references/google-docs/assets-overview.md": [
+   "5c33dcef81ab6efe583b97429faa11071d315a25",
+   "8a9158081dda31c3d053fb17f1465cdeada9821b"
+  ],
+  ".claude/skills/google-ads/references/google-docs/best-practices-overview.md": [
+   "9ce9c0d7000a2238c5911fca6e4359b71973be64",
+   "e473a36360ea18289ba13ce7a6e170e08ab8ff50"
+  ],
+  ".claude/skills/google-ads/references/google-docs/bidding-strategy-types.md": [
+   "67a72231d8f7e2aa0034fb1586e3f3b4c03a536e",
+   "fceaa055731890ccdd5b750d96ecc836c0ca2e49"
+  ],
+  ".claude/skills/google-ads/references/google-docs/campaign-budgets.md": [
+   "729cb0ebff3acacae1c320620e836e9a548593e6",
+   "c1742162252e26b76e5fdaf46d42b6d13bb2a915"
+  ],
+  ".claude/skills/google-ads/references/google-docs/campaigns-create.md": [
+   "7f12546febda90b4f467066a77a1ed61d954c9af",
+   "cb7ee6ee9deb04de04b7528efbacd084d695e276"
+  ],
+  ".claude/skills/google-ads/references/google-docs/concepts-overview.md": [
+   "0c971bfa7c720415ae107bdf1849f7bd31bb7aef",
+   "4cdfeee8178469867bd9123e0e3adb84dd49c44d"
+  ],
+  ".claude/skills/google-ads/references/google-docs/conversions-overview.md": [
+   "04ea9d37f8645f7ad17b0d10b6cb530f52291642",
+   "0bfde12cb3a16c885ee54d8ae0359c99d53d4781"
+  ],
+  ".claude/skills/google-ads/references/google-docs/date-ranges.md": [
+   "1cf6bb4783942f82a8ed8a0503035d9c95753747",
+   "3139e4245ef4c1dd47734229648ba614789f58f6"
+  ],
+  ".claude/skills/google-ads/references/google-docs/gaql-cookbook.md": [
+   "148e9713634934b9aabcdc2f41f982d7ce22b66b",
+   "74f9ff1c6c2b4d53af1fb8d47cb4d92911505eac"
+  ],
+  ".claude/skills/google-ads/references/google-docs/gaql-grammar.md": [
+   "33dfb0f3d1a498f731df6fbf186c24c4b6c3a6f9",
+   "5377f888354f3b0b5132828239a69ae4a3013a03"
+  ],
+  ".claude/skills/google-ads/references/google-docs/gaql-overview.md": [
+   "0463131de9a6230166e3a3d137d2af59b5458f81",
+   "4fcf52dc273a29964b1068e94af7438d0988e326"
+  ],
+  ".claude/skills/google-ads/references/google-docs/gaql-structure.md": [
+   "86af44ad62aa48fbd5e2fe64afb0eb75fa6880e1",
+   "adb29c0a0a7d32174cdf9257446b8584d63d1716"
+  ],
+  ".claude/skills/google-ads/references/google-docs/keyword-ideas.md": [
+   "aac22ddc11173fde5d26c0f1e1637dd84ef5ed10",
+   "e38ec44fe4691d580668844ab41bee6d7cea7ab2"
+  ],
+  ".claude/skills/google-ads/references/google-docs/keyword-planning-overview.md": [
+   "8719d9da1be8f73cc32d2315cea3960521a6e296",
+   "ddc4a7d6128ab42eef0952e1911cdd929b757e9b"
+  ],
+  ".claude/skills/google-ads/references/google-docs/performance-max-overview.md": [
+   "848d236935ad9408ed30bdbf1864d6c65b1f0b82",
+   "b038f5da46aa5721270df5dde07549a1e2e4309a"
+  ],
+  ".claude/skills/google-ads/references/google-docs/release-notes.md": [
+   "7f8e8ac39676113a330339eff7c3a6d26921332b",
+   "ccc2f2470f1aa1cbaf4e2f614336a02437180331"
+  ],
+  ".claude/skills/google-ads/references/google-docs/responsive-search-ads.md": [
+   "33d874ae74b223f6d885bd3407d3d96f8d274c60",
+   "4d69a7b5a75238de3f8dcce2d269365d47e9616b"
+  ],
+  ".claude/skills/google-ads/references/google-docs/start-introduction.md": [
+   "b0c5550ef7d6f6e0cc534b5c64a8d55d03b95c97",
+   "e175922d874b3d34d5d6960efc3e264f648d1a4f"
+  ],
+  ".claude/skills/google-ads/references/google-docs/sunset-dates.md": [
+   "3592f4ae2266ed3d38439554bf235c87889342de",
+   "cdb15917253b6474cb7617fae6f070dba9aa35b9"
+  ],
+  ".claude/skills/google-ads/references/mcp-server.md": [
+   "06979d1e2144324a517b540cd5f318af9a9593c2"
+  ],
+  ".claude/skills/google-ads/scripts/create.py": [
+   "d3d1cb6bf18eb2113c0f52efe318f2180614757c"
+  ],
+  ".claude/skills/google-ads/scripts/delete.py": [
+   "5c256cf3a035ba1b1a67f86a5b8ca25b5888f117"
+  ],
+  ".claude/skills/google-ads/scripts/insights.py": [
+   "221f63f47c853e763d1a1ac59e4406393fef4487"
+  ],
+  ".claude/skills/google-ads/scripts/keyword_planner.py": [
+   "4735c1a84444dc4b530f935790e93ff307390135"
+  ],
+  ".claude/skills/google-ads/scripts/lib/__init__.py": [
+   "36b0a5822f1e9a17d7d45719517ceafc97e5e9c9",
+   "9b88b77153bc1641c03aa76d0b55b2520e70ad58"
+  ],
+  ".claude/skills/google-ads/scripts/read.py": [
+   "473c16b53d420792a6de01a68389c84f283a5e8f"
+  ],
+  ".claude/skills/google-ads/scripts/setup.py": [
+   "b326775a16c50c5ec42015a108ccb2e75ffb1516",
+   "f83af3cabc41c77d5a5a1f96860d83471179ee5a"
+  ],
+  ".claude/skills/google-ads/scripts/update.py": [
+   "7d87467ed69e9f22f120eb162b0cec09d78327df"
+  ],
+  ".claude/skills/meta-ads/.env.example": [
+   "44ed839ab4f0dcbd49e16c69a13f95f08ce7f74e"
+  ],
+  ".claude/skills/meta-ads/.gitignore": [
+   "d2bfe9f72ea4f2dc21f69a66337381b545d3390a"
+  ],
+  ".claude/skills/meta-ads/README.md": [
+   "251d7ae760c05e8387ffb2391920dc143c54d186"
+  ],
+  ".claude/skills/meta-ads/SKILL.md": [
+   "1fa1e902ef8c209b7432869c53ee885c652311ca",
+   "347371fd8a0bb66d3f3c4bb546de21433108f0bd",
+   "7e026694727320487403115ad8dc21ef21c49e49",
+   "8faeddf8bf630efc7b71e6b6dce2ada9043641f4",
+   "fb503f6efea991945d6cedce2fa52441c17f9fda"
+  ],
+  ".claude/skills/meta-ads/aprendizados.md": [
+   "ed4dea5199cc11cf6f26cbe82864a5179bf2ff0a"
+  ],
+  ".claude/skills/meta-ads/contas.yaml": [
+   "159ea556df9311e70feebe7534ee4a359b896874"
+  ],
+  ".claude/skills/meta-ads/references/api-reference.md": [
+   "790a9ea745e503de961dedeef0afbaa64b4bd1cc",
+   "d16b033ecb250ad63ddc2dc6a9bfa4adadc71bfb",
+   "d766053d24313c3af33b168c0c6c684895d54082"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/INDEX.md": [
+   "681ec83b891b7c8e8f3d2c1d50c87b236425579c",
+   "bae928c6514130eeb184c71afcc05655b583168d"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/ad-creative-link-data.md": [
+   "79292496c6fd17a998541a53d2181240f249007f",
+   "dddf6ed1d82529b5ac44823798f9b0ce0df11cf4"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/ad-creative.md": [
+   "43a42d24cd75c13d4c87440a27fb901b9d3e3674",
+   "6f7a5474c7673c6b1e98c900dde0d1bb222e4afd"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/ad-image.md": [
+   "3eec6ee81ffb67c52d276e85a9edd4c8278a9c5d"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/ad-set.md": [
+   "7fa9961de924816d47899fe666c93576bc752907"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/ad-videos.md": [
+   "81209bd9490a1a8115c86d8f7eb307d95eebd879"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/ad.md": [
+   "90a81de27f673e449aa2b8010be1bce9dc4f4309",
+   "a42e652ae1a442f2072f7109d9a379de68d321e9"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/ads-whatsapp-status.md": [
+   "f025f4d4fc4a78e06b75959706f62085a8faa952"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/adset.md": [
+   "dcf17414467b41d126443635170d40a40f5a28fd"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/advantage-plus-sales.md": [
+   "87069248619fb54ea6089cc32c687d46267bf0f1",
+   "8a0b73f1b111250354f0377d2019dcd9af4cf6e0"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/bidding.md": [
+   "80a08ee8ccfdd1b0fe57064a491ff94f8ff48d7d",
+   "ff3060a4d0cbe470ade9ee28b28285a5c67a7877"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/campaign-structure.md": [
+   "33ab9a770d53041fb1492ddbb66ca419656c352e",
+   "3ace3b72eaa0dba9aa4cd4a5d6c90f74bae8982f"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/campaign.md": [
+   "4f2d1dd1cf1ca9591d51abec7e07db9ba852d4d0",
+   "e48795ea1c945b76ab007d7cd69c4b8968b06353"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/carousel-ads.md": [
+   "829aafd1dece0fcfb6cc4032ad13131e02d2e182",
+   "fd5913444de9ee1829949c22dfb07c3a34c284ec"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/changelog-v25.md": [
+   "d6bbf02f69904abd383448126232699529a36495"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/changelog-v26.md": [
+   "89779669620d46897c1133bd1a2513c6c723ed38"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/conversions-api.md": [
+   "420264bd8ec65411629fbc36c15e045357b28445",
+   "e356b78c526e3f5445cfdb53022da7dba1259417"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/custom-audience.md": [
+   "1f5e24e6cb567bfc9ce89011be5763c4ad40c72c"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/custom-audiences.md": [
+   "9f71dd768e645bd3e129d7ad4b9c911170f762c3"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/get-started.md": [
+   "098ebf08a3898a7b504bd47e8f000c8de93bdf12",
+   "f8e7a545fbd367595374463bb0711cc95dfec09e"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/insights-api.md": [
+   "a9053f4feec9b3371fbec9d865da28e02fc67541"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/insights-breakdowns.md": [
+   "c6ca3bcc98191d69e7f0d8555ef1e78c328a6ec8"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/insights-parameters.md": [
+   "0caa7704bb45e5718950f0bffe3f6ba1898e6e7d"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/insights-reference.md": [
+   "c5f9c4a950fe48226d1549eb70a9e06e0e823c72"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/insights.md": [
+   "90cd597e371e17a9489086dfdb64f1538b163604"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/lead-ads.md": [
+   "8c6e0cd1d426705ce0bd93a7ba0963e304235d29",
+   "d6668cffd352eda38a392a4f6d7b7802ca7b4b8b"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/lookalike-audiences.md": [
+   "206bbab43b1a9d5e48a23426b8e5b23dbfff134b",
+   "a55b724acc462dd447fb95a0071dc60c8f3134c3"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/object-story-spec.md": [
+   "b205d912dd84b1d9df47b52b9bb9accc030399a0",
+   "edb870f79719879df8cee633cbbf9369d6696d0c"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/outcome-driven-ads.md": [
+   "e784d4f2f4a1c905fc7f2cad6365628ea89dad73",
+   "fe0efeb75331beaf9bc5b607fc3fd9604157cc09"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/placement-asset-customization.md": [
+   "1dcf20296edd14b1cb50d45f77911b94b3c01a12"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/targeting-avancado.md": [
+   "d8a8cc2c465a8ac060278ea20845f0f01e7b2639"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/targeting-basico.md": [
+   "4d7cff6fdd704eff68114a9d9e1a718c5d672aaa"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/targeting-search.md": [
+   "eda5a9adcceae796e59ecf1f00310c512c95e576"
+  ],
+  ".claude/skills/meta-ads/references/meta-docs/targeting-specs.md": [
+   "53c60eab3180a5fbc6118f440518bcb4f8fb5386"
+  ],
+  ".claude/skills/meta-ads/references/padroes-campanha.md": [
+   "ef0a0c6b225fd919b42c2e8ea8dce9f3804b76c4"
+  ],
+  ".claude/skills/meta-ads/references/setup-meta-app.md": [
+   "f12f1a4dd436a60b6a0900b622c50b28e6db9677"
+  ],
+  ".claude/skills/meta-ads/scripts/advanced.py": [
+   "e2ce15aa2a3b822cbf0e8f422851e5760a23fbf7"
+  ],
+  ".claude/skills/meta-ads/scripts/create.py": [
+   "d9057cf3dcf706fc85658794d57b3bfee85e4277"
+  ],
+  ".claude/skills/meta-ads/scripts/dataset.py": [
+   "90088ce1004d15dece9a579b8ff433c4c2c491c6"
+  ],
+  ".claude/skills/meta-ads/scripts/delete.py": [
+   "fe513edafe1009201d135e72f7a66ad4e7a8a864"
+  ],
+  ".claude/skills/meta-ads/scripts/insights.py": [
+   "7d49b80f297ed90955e9f5a31b04dbfc14c5848e"
+  ],
+  ".claude/skills/meta-ads/scripts/lib/__init__.py": [
+   "3a44cb209677a9f2315d71056a4315fa854b4bdf"
+  ],
+  ".claude/skills/meta-ads/scripts/lib/pagination.py": [
+   "ac59d4d2aa969bc24c7da86d3309e220128e49f7"
+  ],
+  ".claude/skills/meta-ads/scripts/read.py": [
+   "d3e5548ccebe1714de727820873be23d20b1b7d7"
+  ],
+  ".claude/skills/meta-ads/scripts/setup.py": [
+   "5f79453852a2ccd18d45768b62ae39d0ea3e5a07",
+   "b988904204759a8150bc56d541b1fd4d6b2520d0"
+  ],
+  ".claude/skills/meta-ads/scripts/targeting.py": [
+   "ec9b744534959751e9e258602af535be508c06a9"
+  ],
+  ".claude/skills/meta-ads/scripts/update.py": [
+   "33c5c97066a561433b2d251c64210898b152128b"
+  ],
+  ".claude/skills/meta-vv-publicos/.env.example": [
+   "0c3c7fd9dfe95ddf36ea1b4eb27f31eeb81b0d35"
+  ],
+  ".claude/skills/meta-vv-publicos/.gitignore": [
+   "a56074fec5fab292a55ed646cd77504beac311b4"
+  ],
+  ".claude/skills/meta-vv-publicos/FONTE.md": [
+   "7ad03e6d52ef81456f1045aac2b4c857c58e20ef"
+  ],
+  ".claude/skills/meta-vv-publicos/LICENSE": [
+   "15bbeaa132434d77f4543f4e97fb1187aa6f0100"
+  ],
+  ".claude/skills/meta-vv-publicos/README.md": [
+   "bfd2ba96ad42142a860ec3dd0dd63a1442e30671"
+  ],
+  ".claude/skills/meta-vv-publicos/SKILL.md": [
+   "961553fea4e6e05fc01ded5d014e1b200411272d"
+  ],
+  ".claude/skills/meta-vv-publicos/setup.py": [
+   "8daeb6c3dd4a0980511560990d372cea5fd73070"
+  ],
+  ".claude/skills/meta-vv-publicos/vv_campanha.py": [
+   "cfc3685db1718b75d2c5a8dbf04756da691ba402"
+  ],
+  ".claude/skills/meta-vv-publicos/vv_publicos.py": [
+   "cc5ea08a7e4d73dd259a0c823f252c797e1da855"
+  ],
+  ".claude/skills/novo-cliente/SKILL.md": [
+   "5aacb71b9b8dc45ec21c2a3790f5c4280f3ad7af"
+  ],
+  ".claude/skills/onboarding/SKILL.md": [
+   "0a01897a78441a2f2c85d958747109eb4e8974f8"
+  ],
+  ".claude/skills/proposta-comercial/SKILL.md": [
+   "dddc8bdbf91650b95a22fd5e6206ced91e33bf2b"
+  ],
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/.env.example": [
+   "6590b5a4f28cfe6633becdbe280c99597f57a9ce"
+  ],
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/.gitignore": [
+   "d50a09fc9169b4517adb37c586c510db9cd4cf8b"
+  ],
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/SKILL.md": [
+   "36f1f992e47594c72d2cddf75ebf3175ed636dd4",
+   "a02ff8d732cd3d3ee42df05de1cdc04686a20e64"
+  ],
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/references/prompt-site.md": [
+   "7c1fa09404f5c46ef1683b36b978363eba64fb3d"
+  ],
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/scripts/_google.py": [
+   "d17c2ef9115da87d97bbad9b30c5730df25492b9"
+  ],
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/scripts/ads_conversions.py": [
+   "8ef05a380b197c596d998a9f3439a5c2e6e38086"
+  ],
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/scripts/check_site.py": [
+   "0f635fc02b9c8204a061f4f2782355de21d5f367"
+  ],
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/scripts/ga4_setup.py": [
+   "c6887b2f64785aa3cb0af254420f64fc2620157c"
+  ],
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/scripts/gtm_build.py": [
+   "f93e9cf9335f2e63f6eab1393787606a29988af7"
+  ],
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/scripts/oauth_login.py": [
+   "e4664b08971aa3fce17d95aa8458ee0353eef69d"
+  ],
+  ".claude/skills/setup-rastreamento-cliente-gtm-ga4/scripts/realtime.py": [
+   "cb1a8c084e9fdc3dd00c678ba6ef39e2a91babd5"
+  ],
+  ".claude/skills/setup/SKILL.md": [
+   "216b49c3e01e54f391a89cdddf33b7c1ed94b26b",
+   "29f9d5641c1e253e88c735ba10ba0faffd881faf",
+   "a9f2f12c05a81a383a074f729f7d9a2ff6bf978b"
+  ],
+  ".gitignore": [
+   "0395515a45a27acaa8131e6ac9a731be965694e6",
+   "c99f75a2b64b1b3a030f4bab1934260abfece772",
+   "d9996c782aa74d7a4bcca0f9af41ae8bdffa33a2"
+  ],
+  ".kit/atualizar.py": [
+   "3906f76002aa0517862f4cc01dadf1f0818a66b2"
+  ],
+  ".kit/config.json": [
+   "43223af0190fc0a18ae459266d03d73df14c9eed"
+  ],
+  ".kit/gerar_manifesto.py": [
+   "1323b5e6ea4233f7e679b8ed84e68278166997bc"
+  ],
+  "AGENTS.md": [
+   "3ad452eea90994312db272ef1f010201fbd2ff6b",
+   "9474128e5d8bde5ef5be8da3e6f656bcb1eebe1e",
+   "a230b268042800247f8a12e567172a5374ac8860"
+  ],
+  "CLAUDE.md": [
+   "29f3695029ba64268d9bf4134317883cf27df1ff",
+   "5c5344dda3b603f4c427b0b963bca0ae5c4032f2",
+   "678d89e9ba8ac8ebf100c397e4a9b4b548b1b99f",
+   "812b0ed9256f872569b93bf36badd9b2bd1ff944"
+  ],
+  "CREDITOS.md": [
+   "80dad69f5b90d5ea33106aaca32100d843ac0cb0",
+   "e5253938825655137ad9af02bc1dfbace8e71efe"
+  ],
+  "NOVIDADES.md": [
+   "b5eb64f187bfed5206cdacf2f9bde0e5127c754a"
+  ],
+  "README.md": [
+   "01ee026234f127dd4515c09a85f64b59a3bfcce7",
+   "1eb589222238b7dc3fcfe11e6613d4de0421d71d",
+   "6218bb3cede80b8357598f609e585e9457d3059e",
+   "69e8493bdf071c6569e77ead0976454304018250",
+   "720cabf5b5586fd02a38d7f39a6319f5e86b7a93",
+   "96e4e12de7da332edf85ccf2fbe19934fe1053ba",
+   "c0fdf28001753e2699d33a31ddbae7fc808e6d9f",
+   "c507ddce3103e21ff0717db6b337f3286a97a9bd",
+   "d1be025ae384a12a9811e40b9f9c2c2820831820",
+   "e3f9e3f94f125e98e0b1eeecf15c19241aba89a6",
+   "e5c015b014f7fb0ecfa695c0259ce0b7e345812f"
+  ],
+  "_contexto/empresa.md": [
+   "d0a23e3a85f15015b2f753e7d8a2ffbc5569bcf6"
+  ],
+  "_contexto/estrategia.md": [
+   "e1c5f215886382e6ac32bc4ce1f03612eba03d81"
+  ],
+  "_contexto/preferencias.md": [
+   "3f0b0420a17710ff14d91a59105162b9a241d6ed"
+  ],
+  "clientes/README.md": [
+   "7730967aab158da745471c2d483b031603890641",
+   "f276d652d671cbd97bc92b937f3cf97e8fd05c63"
+  ],
+  "clientes/_template/contexto.md": [
+   "6c3a72a1930d5f7caf2ceaf12275187378b20dc8",
+   "7eb8654331fc41ca8a2499607bb5963b4551c6e4"
+  ],
+  "dados/README.md": [
+   "e8c1b1198270852ce92db2078837032b1f9a7b84"
+  ],
+  "marca/design-guide.md": [
+   "38d4faf3ac301c9ac954b0fb670d4e9acd19e6e2"
+  ],
+  "templates/ferramentas/catalogo.md": [
+   "57342bd6a1345164f4f1129d7e235eb89ea0d0ee",
+   "ab6484fdc270ac784d5a2abf53f75b150dfdf568"
+  ],
+  "templates/marca/exemplos/design-guide-agencia.md": [
+   "d06c43841b9b724dad734aa0204f1bf8fb152a0f"
+  ],
+  "templates/marca/exemplos/design-guide-eugencia.md": [
+   "dc68987e0dd75693f3c81bd6d4f688e067acf411"
+  ],
+  "templates/perfis/agents-md-agencia.md": [
+   "557b8b343d4419dfa40084ecfd788ff9c76670bf"
+  ],
+  "templates/perfis/agents-md-eugencia.md": [
+   "f274c6df02e9554f66262b01a5c2334dc694db42"
+  ],
+  "templates/perfis/claude-md-agencia.md": [
+   "557b8b343d4419dfa40084ecfd788ff9c76670bf"
+  ],
+  "templates/perfis/claude-md-eugencia.md": [
+   "f274c6df02e9554f66262b01a5c2334dc694db42"
+  ]
+ }
+}

@@ -20,7 +20,7 @@ Scripts em `scripts/` (python3 do sistema, sem venv). `ads_conversions.py` usa o
 - Uma etapa por vez. Ao fim de cada etapa: mostrar o que foi criado (tabela com IDs) e pedir OK antes da próxima quando ela criar algo na conta do cliente.
 - Contas GA4 e GTM ficam **no nome do cliente**, com a agência/gestor como administrador (perguntar só se o usuário não disser).
 - Criar no GTM sempre num **workspace novo**; publicar só depois da validação (etapa 5).
-- Registrar tudo em `clientes/<slug>/rastreamento.md` (IDs + checklist das etapas), atualizando a cada etapa. Se o cliente não tiver pasta, sugerir `/novo-cliente` antes.
+- Registrar tudo em `clientes/<slug>/rastreamento.md` (IDs + checklist das etapas), atualizando a cada etapa. Se o cliente não tiver pasta, sugerir `/onboarding` antes.
 - Usar a Tag Manager API direta. Evitar MCPs de terceiros com cota diária compartilhada (estouram com 429 "per day" no meio do build).
 
 ## Entradas (perguntar o que faltar)

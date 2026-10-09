@@ -46,12 +46,15 @@ O Claude vai te fazer algumas perguntas e configurar o sistema pro seu negócio.
 
 **Skills prontas pra usar:**
 - `/setup` — configura o sistema pro seu negócio (comece por aqui)
-- `/novo-cliente` — cadastra um cliente novo (cria a pasta e o contexto.md)
+- `/onboarding` — cadastro e onboarding de cliente novo: puxa site, Instagram e Google Meu Negócio, cria a pasta, o contexto.md e gera os estudos de persona e de mercado
+- `/estudo-persona` — estudo de persona profundo (medos, dores, objeções, níveis de consciência), calibrado pelas reviews e redes do cliente
+- `/estudo-mercado` — estudo de mercado do segmento: concorrentes, o que eles anunciam na Biblioteca de Anúncios, demanda de busca, canais e riscos
 - `/meta-ads` — gerencia campanhas Meta Ads (Facebook/Instagram) via SDK oficial
 - `/google-ads` — gerencia campanhas Google Ads via SDK oficial
 - `/auditoria-conta-google-ads` — audita uma conta Google Ads inteira, mostra onde o dinheiro vaza e entrega um plano de correção em fases
 - `/setup-rastreamento-cliente-gtm-ga4` — monta o rastreamento de um cliente novo via API: GA4, conversões no Google Ads, container GTM completo, prompt do site e validação
 - `/proposta-comercial` — cria propostas comerciais em PDF com a identidade visual da sua marca
+- `/atualizar-kit` — traz as novidades do kit sem sobrescrever o que é teu (ver abaixo)
 
 **Skills de terceiros (créditos em `CREDITOS.md`):**
 - `/meta-vv-publicos` — cria públicos de video view na Meta Ads por retenção, a partir dos vídeos orgânicos do Instagram ou dos anúncios de uma campanha. Por [Igor Poggianella](https://github.com/igorpoggianella/meta-vv-publicos)
@@ -73,4 +76,18 @@ O Claude vai te fazer algumas perguntas e configurar o sistema pro seu negócio.
 **Pasta `dados/`:**
 - Drop zone pra arquivos que você quer analisar (CSV, XLSX, TXT, PDF)
 - Útil quando você não tem MCP de Google Drive instalado
+
+---
+
+## Como atualizar o kit
+
+Quando sair novidade (veja `NOVIDADES.md`), rode `/atualizar-kit` dentro do Claude Code. Ele:
+
+- adiciona as skills e arquivos novos;
+- atualiza só os arquivos que você nunca editou (com backup em `.kit/backup/`);
+- **nunca toca** em `_contexto/`, `marca/`, `clientes/`, `dados/` e credenciais;
+- nos arquivos que você personalizou (ex: `AGENTS.md`), mostra o que mudou e mescla com você, mantendo tudo que é teu.
+
+Não precisa de Git nem de `git pull`. Funciona mesmo se você baixou o ZIP ou usou "Use this template".
+Pra blindar um arquivo específico contra atualização, coloque o caminho em `.kit/protegidos-locais.txt`.
 

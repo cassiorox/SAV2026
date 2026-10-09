@@ -53,8 +53,9 @@ Cada cliente tem uma pasta em `clientes/<nome-do-cliente>/` com (no mínimo) um 
 Esse `contexto.md` é a fonte de verdade sobre aquele cliente.
 
 - Quando o trabalho for **pra um cliente específico** (criativo, campanha, copy, proposta, análise), ler `clientes/<nome-do-cliente>/contexto.md` antes de criar qualquer coisa, e calibrar tudo ao contexto dele.
-- Se o usuário mencionar um cliente que **ainda não tem pasta**, sugerir rodar `novo cliente` pra cadastrar.
-- Cadastro de cliente novo: usar a skill `novo cliente` (`.claude/skills/novo-cliente/`), que pede o contexto, cria a pasta e salva o `contexto.md` a partir de `clientes/_template/contexto.md`.
+- Se o usuário mencionar um cliente que **ainda não tem pasta**, sugerir rodar `/onboarding` pra cadastrar.
+- Cadastro de cliente novo: skill `onboarding` (`.claude/skills/onboarding/`). Coleta site, Instagram e Google (ou só um briefing), cria a pasta, salva o `contexto.md` a partir de `clientes/_template/contexto.md` e gera os estudos. Estudos avulsos: `estudo-persona` e `estudo-mercado`, salvos em `clientes/<nome-do-cliente>/estudos/`.
+- Quando existirem, ler também `estudos/persona.md` e `estudos/mercado.md` do cliente antes de criar copy, criativo ou campanha.
 - `clientes/_template/` é só modelo — não é um cliente real.
 
 Recomendado que **todo cliente tenha um `contexto.md`**.
@@ -127,6 +128,17 @@ Mostrar o que vai mudar antes de salvar. Não reformatar o arquivo inteiro, só 
 - Mudanças que já foram salvas pelo bloco "Aprender com correções"
 
 **Dica:** se não sabe se algo mudou, rode `/atualizar` pra uma varredura completa.
+
+---
+
+## Atualizações do kit
+
+Novidades do ClaudePRO chegam com `/atualizar-kit` (skill `atualizar-kit`). Nunca usar `git pull` nem copiar
+a pasta do kit por cima: isso sobrescreve o que é do usuário. O atualizador nunca toca em `_contexto/`, `marca/`,
+`clientes/`, `dados/` e credenciais, e mescla com aprovação os arquivos que o usuário personalizou.
+
+Mantenedor do kit: o `.kit/manifesto.json` precisa estar atualizado a cada publicação
+(`python3 .kit/gerar_manifesto.py`; o hook de pre-commit local já faz isso).
 
 ---
 

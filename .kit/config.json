@@ -1,0 +1,18 @@
+{
+  "repositorio": "cassiorox/ClaudePRO",
+  "branch": "main",
+  "protegidos": [
+    "_contexto/**",
+    "marca/**",
+    "clientes/**",
+    "dados/**",
+    ".env",
+    "*.env",
+    "contas.yaml"
+  ],
+  "excecoes": [
+    "clientes/_template/**",
+    "clientes/README.md",
+    "dados/README.md"
+  ]
+}
