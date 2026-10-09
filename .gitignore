@@ -11,3 +11,12 @@ dist/
 build/
 .idea/
 .vscode/
+
+# Atalho por maquina pra .claude/skills (ver AGENTS.md)
+.agents/skills
+
+# Atualizador do kit: estado local de cada usuario
+.kit/backup/
+.kit/revisar/
+.kit/ultima-atualizacao.json
+.kit/base/
